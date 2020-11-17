@@ -1,0 +1,88 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:India Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Vidya Rejith:mailto:RVidya@microfocus.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Sudeep Sub
+ rahmanya:mailto:Sudeep.Subrahmanya@microfocus.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Kartik Day
+ anand Pandit:mailto:Kartik.DayanandPandit@microfocus.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=18mms006@s
+ mvdu.ac.in:mailto:18mms006@smvdu.ac.in
+ATTACH:CID:9ED3B973E6D7C54189D92E8929943698@namprd18.prod.outlook.com
+DESCRIPTION;LANGUAGE=en-US:Hi Henna\,\n\nPlease join the Microsoft Teams In
+ terview on Thursday 10.30 am.\n\nInterviewers : Sudeep Subramanya/Kartik D
+ ayanand Pandit\nName\nEmail\nMobile Number\nHenna Farooq\n18mms006@smvdu.a
+ c.in<mailto:18mms006@smvdu.ac.in>\n9149754960\n___________________________
+ _____________________________________________________\nMicrosoft Teams mee
+ ting\nJoin on your computer or mobile app\nClick here to join the meeting<
+ https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjllYmY5YTAtYWJmNi0
+ 0YWYzLTgwY2QtODg2MmE5YjliYzU1%40thread.v2/0?context=%7b%22Tid%22%3a%22856b
+ 813c-16e5-49a5-85ec-6f081e13b527%22%2c%22Oid%22%3a%22d53a6212-2a49-418e-8d
+ ab-2238cc0a0df3%22%7d>\nLearn More<https://aka.ms/JoinTeamsMeeting> | Meet
+ ing options<https://teams.microsoft.com/meetingOptions/?organizerId=d53a62
+ 12-2a49-418e-8dab-2238cc0a0df3&tenantId=856b813c-16e5-49a5-85ec-6f081e13b5
+ 27&threadId=19_meeting_MjllYmY5YTAtYWJmNi00YWYzLTgwY2QtODg2MmE5YjliYzU1@th
+ read.v2&messageId=0&language=en-US>\n_____________________________________
+ ___________________________________________\n\n
+UID:040000008200E00074C5B7101A82E00800000000503DF8655CB7D601000000000000000
+ 01000000060D89730B243004AAE1B3605DDD5A800
+SUMMARY;LANGUAGE=en-US:Interview with Henna
+DTSTART;TZID=India Standard Time:20201112T103000
+DTEND;TZID=India Standard Time:20201112T111500
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20201110T065930Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=en-US:Microsoft Teams Meeting
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:-1783973916
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_MjllYmY5YTAtYWJmNi00YWYzLTgwY2QtODg2MmE5YjliYzU1%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%22856b813c-16e5-49a5-85ec-6f081e13b527%22%2c%22O
+ id%22%3a%22d53a6212-2a49-418e-8dab-2238cc0a0df3%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://scheduler.teams.microsoft.co
+ m/teams/856b813c-16e5-49a5-85ec-6f081e13b527/d53a6212-2a49-418e-8dab-2238c
+ c0a0df3/19_meeting_MjllYmY5YTAtYWJmNi00YWYzLTgwY2QtODg2MmE5YjliYzU1@thread
+ .v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_MjllYmY5YTAtYWJmNi00YWY
+ zLTgwY2QtODg2MmE5YjliYzU1@thread.v2"\,"private":true\,"type":0\,"mid":0\,"
+ rid":0\,"uid":null}
+X-MICROSOFT-ONLINEMEETINGCONFLINK:conf:sip:RVidya@microfocus.com\;gruu\;opa
+ que=app:conf:focus:id:teams:2:0!19:meeting_MjllYmY5YTAtYWJmNi00YWYzLTgwY2Q
+ tODg2MmE5YjliYzU1-thread.v2!d53a62122a49418e8dab2238cc0a0df3!856b813c16e54
+ 9a585ec6f081e13b527
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Microsoft Teams Meeting"\,"LocationA
+ nnotation":""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,"
+ LocationState":""\,"LocationCountry":""\,"LocationPostalCode":""\,"Locatio
+ nFullAddress":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
